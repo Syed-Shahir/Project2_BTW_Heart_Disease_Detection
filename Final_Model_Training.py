@@ -14,7 +14,7 @@ import streamlit as st
 warnings.filterwarnings("ignore")
 
 # Load the CSV data into a Pandas DataFrame
-file_path = 'D:/BYTEWISE_2024/Tasks/Week8-9/BTW_Project2_Heart_disease_Prediction/p2/heart_disease_data.csv'
+# file_path = 'replace with dataset path'
 heart_df = pd.read_csv(file_path)
 
 # Split the data into features and target variable
